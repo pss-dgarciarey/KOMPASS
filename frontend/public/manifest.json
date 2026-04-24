@@ -1,0 +1,10 @@
+{
+  "name": "Kompass \u2014 Global Pulse Monitor",
+  "short_name": "Kompass",
+  "description": "Global sentiment and market pulse, public and free",
+  "theme_color": "#05070A",
+  "background_color": "#05070A",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": []
+}

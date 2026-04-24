@@ -1,0 +1,349 @@
+{"timestamp":"2026-04-16T08:37:16.015Z","level":"info","component":"db","message":"SQLite initialized","databasePath":"C:\\Users\\GARCIAD\\Desktop\\PSS\\VSCode\\KOMPASS\\data\\kompass.sqlite"}
+{"timestamp":"2026-04-16T08:37:16.042Z","level":"info","component":"server","message":"Kompass backend listening","port":8080,"env":"production"}
+{"timestamp":"2026-04-16T08:37:17.399Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:37:24.876Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:37:52.694Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Guardian World","error":"Cannot convert object to primitive value"}
+{"timestamp":"2026-04-16T08:37:52.695Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"ReliefWeb","error":"RSS feed request failed with 406"}
+{"timestamp":"2026-04-16T08:37:52.695Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Kyiv Independent","error":"RSS feed request failed with 404"}
+{"timestamp":"2026-04-16T08:37:52.993Z","level":"info","component":"gdelt","message":"GDELT snapshot refreshed","source":"live","eventCount":4539,"requestCount":63,"successCount":57}
+{"timestamp":"2026-04-16T08:38:01.974Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:05.031Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:05.036Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:08.577Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:10.557Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:14.001Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:18.501Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:23.451Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:27.723Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:28.921Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:31.980Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:33.696Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:38.501Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:43.527Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:44.740Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:46.905Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:49.119Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:53.576Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:38:55.553Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:38:59.736Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:03.580Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:08.010Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:09.302Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:13.599Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:15.632Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:19.334Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:23.691Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:24.865Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:28.829Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:33.776Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:38.487Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:38.980Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:43.801Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:48.810Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:39:50.317Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:53.786Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:56.548Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:39:59.326Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:03.979Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:08.928Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:09.967Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:14.217Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:19.227Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:22.268Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:23.176Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:24.487Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:29.186Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:31.232Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:34.750Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:39.242Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:41.211Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:44.750Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:49.298Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:54.222Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:40:56.973Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:58.026Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:40:59.486Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:04.476Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:06.112Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:10.098Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:14.457Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:16.277Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:20.023Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:24.479Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:28.512Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:30.034Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:34.477Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:39.546Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:41.600Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:42.466Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:44.738Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:41:49.551Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:41:55.498Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:00.088Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:04.533Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:04.589Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:09.568Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:10.910Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:11.680Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:15.267Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:19.913Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:21.277Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:26.004Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:29.923Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:35.549Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:36.389Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:39.885Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:40.906Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:45.495Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:49.949Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:42:51.380Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:42:59.395Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:02.919Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:08.494Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:09.040Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:09.866Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:11.131Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:15.851Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:16.969Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:18.066Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Guardian World","error":"Cannot convert object to primitive value"}
+{"timestamp":"2026-04-16T08:43:18.069Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"ReliefWeb","error":"RSS feed request failed with 406"}
+{"timestamp":"2026-04-16T08:43:18.070Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Kyiv Independent","error":"RSS feed request failed with 404"}
+{"timestamp":"2026-04-16T08:43:18.829Z","level":"info","component":"gdelt","message":"GDELT snapshot refreshed","source":"live","eventCount":4487,"requestCount":63,"successCount":56}
+{"timestamp":"2026-04-16T08:43:21.031Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:25.841Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:27.055Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:31.016Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:35.787Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:39.634Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:40.992Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:45.897Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:46.809Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:50.984Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:43:56.296Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:43:58.536Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:01.050Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:05.972Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:44:10.955Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:44:15.274Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:16.067Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:18.452Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:21.011Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:26.010Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:44:30.279Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:30.989Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:35.972Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:44:41.628Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:44:42.606Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:46.429Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:46.970Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:51.222Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:44:56.122Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:01.080Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:02.526Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:03.472Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:06.606Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:11.159Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:12.403Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:16.819Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:21.238Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:22.906Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:27.978Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:31.932Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:36.876Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:40.522Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:42.240Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:43.443Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:46.764Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:51.854Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:45:57.435Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:45:57.437Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:01.919Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:06.835Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:08.027Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:08.030Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:11.761Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:16.902Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:17.487Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:22.538Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:26.923Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:28.803Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:32.583Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:36.989Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:39.060Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:42.836Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:46.993Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:46:48.513Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:52.240Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:46:59.358Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:01.119Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:02.763Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:07.095Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:09.285Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:12.889Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:17.171Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:18.497Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:22.625Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:27.114Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:28.618Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:32.452Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:37.244Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:42.165Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:43.546Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:45.642Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:47.672Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:47:52.193Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:47:55.025Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:03.032Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:10.168Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:10.304Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:15.298Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:15.486Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:16.639Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:20.780Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:22.121Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:26.773Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:30.926Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:32.423Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:36.390Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:40.919Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:42.484Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:42.948Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Guardian World","error":"Cannot convert object to primitive value"}
+{"timestamp":"2026-04-16T08:48:42.950Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"ReliefWeb","error":"This operation was aborted"}
+{"timestamp":"2026-04-16T08:48:42.951Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Kyiv Independent","error":"RSS feed request failed with 404"}
+{"timestamp":"2026-04-16T08:48:43.700Z","level":"info","component":"gdelt","message":"GDELT snapshot refreshed","source":"live","eventCount":4513,"requestCount":63,"successCount":57}
+{"timestamp":"2026-04-16T08:48:46.411Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:48:50.932Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:56.109Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:48:58.791Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:02.143Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:03.498Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:07.187Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:11.752Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:14.989Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:22.299Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:24.649Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:24.740Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:27.108Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:28.856Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:32.416Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:38.638Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:38.685Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:42.814Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:44.006Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:48.141Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:49:50.775Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:53.793Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:49:59.934Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:02.188Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:05.929Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:10.035Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:15.801Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:17.028Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:21.038Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:23.135Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:27.170Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:30.972Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:36.005Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:41.749Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:43.442Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:47.041Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:48.251Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:50:52.423Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:57.176Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:50:59.086Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:00.656Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:03.337Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:10.007Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:11.891Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:13.545Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:18.332Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:19.309Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:23.284Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:30.551Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:32.171Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:33.572Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:43.380Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:45.418Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:46.780Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:49.055Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:49.055Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:51:53.457Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:51:58.474Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:00.487Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:01.612Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:03.655Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:08.430Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:13.603Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:15.901Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:17.840Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:18.556Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:23.523Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:25.322Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:28.828Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:33.453Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:34.661Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:38.617Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:43.430Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:52:44.567Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:48.717Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:52:55.041Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:00.603Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:05.191Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:05.491Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:07.541Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:07.730Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:09.548Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:14.374Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:19.398Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:20.958Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:22.629Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:24.625Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:29.386Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:30.458Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:34.553Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:39.450Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:45.524Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:45.525Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:49.671Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:53:54.810Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:55.504Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:53:55.740Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Guardian World","error":"Cannot convert object to primitive value"}
+{"timestamp":"2026-04-16T08:53:55.743Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"ReliefWeb","error":"RSS feed request failed with 406"}
+{"timestamp":"2026-04-16T08:53:55.744Z","level":"warn","component":"gdelt","message":"Curated feed fetch failed","feed":"Kyiv Independent","error":"RSS feed request failed with 404"}
+{"timestamp":"2026-04-16T08:53:56.325Z","level":"info","component":"gdelt","message":"GDELT snapshot refreshed","source":"live","eventCount":4506,"requestCount":63,"successCount":56}
+{"timestamp":"2026-04-16T08:54:00.134Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:04.589Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:05.327Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:10.128Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:16.059Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:16.060Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:20.391Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:21.794Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:25.486Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:30.224Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:31.297Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:35.491Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:40.318Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:41.711Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:45.470Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:50.312Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:55.290Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:54:57.259Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:54:57.287Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:00.501Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:05.307Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:10.317Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:11.360Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:12.763Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:15.582Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:20.649Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:26.209Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:27.270Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:30.468Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:32.624Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:36.080Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:40.558Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:42.444Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:45.838Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}
+{"timestamp":"2026-04-16T08:55:50.467Z","level":"warn","component":"finance","message":"Batch quote endpoint failed, falling back to chart pulls","error":"Yahoo Finance quote request failed with 401"}
+{"timestamp":"2026-04-16T08:55:51.852Z","level":"info","component":"finance","message":"Market snapshot refreshed","source":"live"}

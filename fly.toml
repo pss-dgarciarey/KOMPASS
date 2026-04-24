@@ -1,0 +1,47 @@
+app = "kompass-garciad-20260420"
+primary_region = "ams"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+  SQLITE_PATH = "/app/data/kompass.sqlite"
+  FINANCE_PROVIDER = "yahoo"
+  POLL_INTERVAL_GDELT = "5m"
+  POLL_INTERVAL_FINANCE = "1m"
+  FINANCE_FETCH_TIMEOUT = "12s"
+  CACHE_TTL = "5m"
+  CACHE_MAX_ENTRIES = "1200"
+  GDELT_PRIORITY_COUNTRY_LIMIT = "32"
+  GDELT_COUNTRY_OUTLET_BATCH_SIZE = "10"
+  GDELT_CONFLICT_OUTLET_BATCH_SIZE = "8"
+  GDELT_COUNTRY_PULSE_BATCH_SIZE = "12"
+  GDELT_SHIPPING_FEED_BATCH_SIZE = "4"
+  GDELT_SOCIAL_FEED_BATCH_SIZE = "2"
+
+[mounts]
+  source = "kompass_data"
+  destination = "/app/data"
+  initial_size = "3gb"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "off"
+  auto_start_machines = false
+
+  [[http_service.checks]]
+    interval = "30s"
+    timeout = "15s"
+    grace_period = "20s"
+    method = "get"
+    path = "/healthz"
+    protocol = "http"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  cpus = 1
+  cpu_kind = "shared"
+  memory = "2gb"

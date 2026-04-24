@@ -1,0 +1,10 @@
+backend/node_modules
+frontend/node_modules
+.flyctl
+.git
+.github
+logs
+data
+backend/.env
+.env
+*.log

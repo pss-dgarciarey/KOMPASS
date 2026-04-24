@@ -1,0 +1,50 @@
+services:
+  backend:
+    image: node:20-slim
+    working_dir: /workspace
+    command: sh -c "cd backend && npm install && npm run dev"
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      SQLITE_PATH: /workspace/data/kompass.sqlite
+      CORS_ORIGIN: http://localhost:5173
+    volumes:
+      - .:/workspace
+      - ./data:/workspace/data
+      - kompass_backend_npm:/root/.npm
+
+  frontend:
+    image: node:20-slim
+    working_dir: /workspace
+    command: sh -c "cd frontend && npm install && npm start -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_BASE_URL: http://localhost:8080/api
+    volumes:
+      - .:/workspace
+      - kompass_frontend_npm:/root/.npm
+    depends_on:
+      - backend
+
+  # SQLite is embedded in the backend process, so there is no separate SQLite daemon.
+  # The mounted ./data folder persists the kompass.sqlite file across restarts.
+  #
+  # Example Postgres upgrade path:
+  # db:
+  #   image: postgres:16-alpine
+  #   environment:
+  #     POSTGRES_DB: kompass
+  #     POSTGRES_USER: kompass
+  #     POSTGRES_PASSWORD: changeme
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+
+volumes:
+  kompass_backend_npm:
+  kompass_frontend_npm:
+  # pgdata:

@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-900: #05070a;
+  --neon-cyan: #00f6ff;
+  --neon-magenta: #ff00e6;
+  --emerald: #00ff9c;
+  --accent-amber: #ffb86b;
+  --glass: rgba(255, 255, 255, 0.04);
+  --deep-red: #7a1318;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', Inter, system-ui, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(0, 246, 255, 0.08), transparent 32%),
+    radial-gradient(circle at top right, rgba(255, 0, 230, 0.1), transparent 30%),
+    linear-gradient(180deg, rgba(5, 7, 10, 1) 0%, rgba(3, 4, 8, 1) 100%);
+  color: #e6f4f7;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body::before,
+body::after {
+  content: '';
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+body::before {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.05) 0,
+      rgba(255, 255, 255, 0.01) 50%,
+      transparent 100%
+    );
+  background-size: 100% 4px;
+  mix-blend-mode: soft-light;
+  opacity: 0.16;
+  animation: scanlines 18s linear infinite;
+}
+
+body::after {
+  background-image:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px);
+  background-size: 6px 6px;
+  opacity: 0.05;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  position: relative;
+  z-index: 1;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.25rem);
+}
+
+.panel {
+  background: var(--glass);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.neon-outline {
+  border: 1px solid rgba(0, 246, 255, 0.22);
+  box-shadow:
+    0 0 0.8rem rgba(0, 246, 255, 0.18),
+    0 0 2rem rgba(255, 0, 230, 0.12);
+}
+
+.text-kicker {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.grain-mask {
+  position: relative;
+}
+
+.grain-mask::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02), transparent 25%, rgba(255, 255, 255, 0.01)),
+    linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.02));
+  mix-blend-mode: overlay;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.map-stage {
+  isolation: isolate;
+}
+
+.map-stage::before {
+  content: '';
+  position: absolute;
+  inset: -12% -6%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 24% 30%, rgba(0, 246, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 72% 58%, rgba(255, 184, 107, 0.1), transparent 26%),
+    radial-gradient(circle at 48% 72%, rgba(0, 255, 156, 0.07), transparent 22%);
+  opacity: 0.9;
+  animation: mapGlowDrift 16s ease-in-out infinite;
+}
+
+.map-stage > * {
+  position: relative;
+  z-index: 1;
+}
+
+.pulse-hotspot {
+  animation: hotspotPulse 2.6s ease-in-out infinite;
+}
+
+.status-pulse {
+  position: relative;
+  display: inline-flex;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 9999px;
+}
+
+.status-pulse::before,
+.status-pulse::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.status-pulse::before {
+  animation: feedPulse 1.8s ease-out infinite;
+}
+
+.status-pulse-live {
+  background: rgba(0, 255, 156, 0.95);
+  box-shadow: 0 0 0.9rem rgba(0, 255, 156, 0.55);
+}
+
+.status-pulse-live::before {
+  background: rgba(0, 255, 156, 0.26);
+}
+
+.status-pulse-hybrid {
+  background: rgba(0, 246, 255, 0.95);
+  box-shadow:
+    0 0 0.4rem rgba(0, 246, 255, 0.45),
+    0 0 1.1rem rgba(255, 184, 107, 0.28);
+}
+
+.status-pulse-hybrid::before {
+  background: rgba(0, 246, 255, 0.2);
+}
+
+.status-pulse-stale {
+  background: rgba(255, 184, 107, 0.95);
+  box-shadow:
+    0 0 0.4rem rgba(255, 184, 107, 0.45),
+    0 0 1rem rgba(122, 19, 24, 0.35);
+}
+
+.status-pulse-stale::before {
+  background: rgba(255, 184, 107, 0.18);
+}
+
+.status-pulse-mock {
+  background: rgba(255, 184, 107, 0.95);
+  box-shadow: 0 0 0.9rem rgba(255, 184, 107, 0.5);
+}
+
+.status-pulse-mock::before {
+  background: rgba(255, 184, 107, 0.24);
+}
+
+.status-pulse-warm {
+  background: rgba(0, 246, 255, 0.95);
+  box-shadow: 0 0 0.9rem rgba(0, 246, 255, 0.5);
+}
+
+.status-pulse-warm::before {
+  background: rgba(0, 246, 255, 0.22);
+}
+
+.sparkline-path {
+  stroke-dasharray: 12 10;
+  animation: sparklineDrift 8s linear infinite;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--neon-cyan);
+  outline-offset: 2px;
+}
+
+@keyframes hotspotPulse {
+  0%,
+  100% {
+    transform: scale(0.85);
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+
+@keyframes feedPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+
+@keyframes sparklineDrift {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+
+@keyframes scanlines {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes mapGlowDrift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.82;
+  }
+  50% {
+    transform: translate3d(0, -1.5%, 0) scale(1.03);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  body::before {
+    opacity: 0.08;
+    animation-duration: 28s;
+  }
+
+  .map-stage::before {
+    opacity: 0.5;
+    animation-duration: 22s;
+  }
+
+  .pulse-hotspot,
+  .sparkline-path {
+    animation-duration: 14s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

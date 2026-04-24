@@ -1,0 +1,3 @@
+# No additional Python dependencies are required for the default Kompass MVP.
+# TODO: If you add Python helper scripts later, merge any new packages with the
+# existing workspace root requirements.txt instead of drifting the environments.
